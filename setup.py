@@ -3,9 +3,9 @@ from distutils.command.clean import clean
 from distutils.command.install import install
 
 requirements = [
-    'scikit-learn==0.23.2',
-    'numpy==1.20.0',
-    'scipy==1.7.1'
+    'scikit-learn==1.4.*',
+    'numpy==1.26.*',
+    'scipy==1.12.*'
 ]
 
 
